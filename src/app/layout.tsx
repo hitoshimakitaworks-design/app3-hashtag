@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     description: 'カテゴリを選ぶだけでSNSハッシュタグを自動提案',
     type: 'website',
   },
+  verification: {
+    google: 'mS7X-tVy63VAOIL',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
